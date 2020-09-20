@@ -1,0 +1,39 @@
+.exp{
+  margin:50px auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.btn{
+  width:100px;
+  height:100px;
+  margin:50px auto 100px auto;
+  background:red;
+  text-align:center;
+  line-height: 100px;
+  color:white;
+  border-radius: 100%;
+  box-shadow:0 10px black;
+  cursor: pointer;
+  user-select: none;
+}
+.btn:hover{
+  opacity: 0.8;
+}
+.btn:active{
+  margin-top:55px;
+  margin-bottom:95px;
+  box-shadow: 0 5px black;
+}
+
+#message{
+  margin:0 auto;
+  width:500px;
+  height:150px;
+  border: 10px solid;
+  color:black;
+  font-size: 60px;
+  text-align:center;
+  line-height:150px;
+  user-select: none;
+}
