@@ -7,7 +7,7 @@ const message = document.getElementById("message");
 btn.addEventListener("click",()=>{
 
   const n = Math.random();
-  if(n<0.10){
+  if(n<0.50){
     message.textContent = "パパ";
   }else{
     message.textContent = "ママ";
